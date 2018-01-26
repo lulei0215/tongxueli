@@ -1,0 +1,251 @@
+// page/editecand/editecand.js
+var app = getApp();
+var picPath = app.globalData.picPath;
+var service = require('../../utils/util.js')
+var pathUrl = app.globalData.pathUrl;
+var subflag = false, saveflag = false,sendflag = false;
+Page({
+  data: {
+    picPath: picPath,
+    dropFalg: false,
+    cont:''
+  },
+  onLoad: function (options) {
+    // 页面初始化 options为页面跳转所带来的参数
+    this.getHttpInfo();
+  },
+  // 获取初始化信息
+  getHttpInfo: function () {
+    var that = this;
+    var url = pathUrl + '/jrcontribute';
+    service.http(url, {}, function (data) {
+      var data = data.data;
+      if (data.err_code == '000') {
+        data.data.eg_mon = data.data.eg_mon.toUpperCase().substr(0, 3);
+        data.data.tian1 = data.data.tian.split("");
+        console.log(data.data)
+        that.setData({
+          info: data.data
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  //将编辑内容绘制到canvas的固定
+  setcont: function (context) {
+    context.setFontSize(26);
+    context.setFillStyle("#000000");
+    var cont = this.data.cont;
+    var len = Math.ceil((cont.length)/21);
+    for (var i = 0; i < len; i++){
+      context.fillText(cont.substr(i * 21, 21), 52, 212 + i * 50);
+    }
+  },
+  //开始绘制
+  createNewImg: function () {
+    var that = this;
+    var info = that.data.info;
+    var context = wx.createCanvasContext('mycanvas');
+    var path = picPath + "/img_bg.png";
+    //将模板图片绘制到canvas,在开发工具中drawImage()函数有问题，不显示图片
+    //不知道是什么原因，手机环境能正常显示
+    context.drawImage(path, 0, 0, 650, 650);
+    context.drawImage(info.touxiang, 40, 535, 80, 80);
+
+    context.rect(41, 160, 570, 279)
+    context.setFillStyle('#ffffff')
+    context.fill()
+
+    context.setTextBaseline('normal');
+    context.setTextAlign('left');
+
+    context.setFontSize(65);
+    context.setFillStyle("#595757");
+    context.fillText(info.mon, 40, 105);
+
+    context.setFontSize(30);
+    context.setFillStyle("#595757");
+    context.fillText(info.eg_mon, 40, 130);
+
+    context.setFontSize(100);
+    context.setFillStyle("#2932e1");
+    context.fillText(info.day, 120, 130);
+
+    context.setFontSize(24);
+    context.fillText(info.year, 522, 88);
+
+    context.setFontSize(26);
+    context.setFillStyle("#ffffff");
+    context.fillText(info.tian1[0], 479, 124);
+    context.fillText(info.tian1[1], 517, 124);
+    context.fillText(info.tian1[2], 554, 124);
+
+    context.setFontSize(26);
+    context.setFillStyle("#333333");
+    context.fillText(info.nickname, 137, 580);
+    this.setcont(context);
+    //绘制图片
+    context.draw();
+    //将生成好的图片保存到本地，需要延迟一会，绘制期间耗时
+    setTimeout(function () {
+      wx.canvasToTempFilePath({
+        canvasId: 'mycanvas',
+        success: function (res) {
+          subflag = false;
+          wx.hideToast()
+          var tempFilePath = res.tempFilePath;
+          console.log(tempFilePath);
+          wx.uploadFile({
+            url: pathUrl + '/contribute',
+            filePath: tempFilePath,
+            name: 'pic',
+            formData: {
+              'pic': tempFilePath,
+              'seccion': wx.getStorageSync('session')
+            },
+            success: function (res) {
+              console.log(res);
+              that.setData({
+                imagePath: tempFilePath,
+                dropFalg: true,
+                picid: res.data
+              });
+            },
+            fail: function () {
+              wx.showModal({
+                title: '提示',
+                showCancel: false,
+                content: '上传图片失败',
+              })
+            }
+          })
+        },
+        fail: function (res) {
+          console.log(res);
+          wx.showModal({
+            title: '提示',
+            showCancel: false,
+            content: '生成图片失败',
+          })
+        }
+      });
+    }, 200);
+  },
+  formSubmit: function (e) {
+    if (subflag)return;
+    var that = this;
+    var cont = e.detail.value.cont;
+    if (cont == '') {
+      wx.showModal({
+        title: '提示',
+        showCancel: false,
+        content: '请刷入编辑内容',
+      })
+      return;
+    }
+    subflag = true;
+    this.setData({
+      cont: cont
+    });
+    wx.showToast({
+      title: '生成中...',
+      icon: 'loading',
+      duration: 1000
+    });
+    console.log("生成图片")
+    setTimeout(function () {
+      that.createNewImg();
+    }, 1000)
+  },
+  cancle: function(){
+    this.setData({
+      dropFalg:false
+    })
+  },
+  // 保存图片
+  save:function() {
+    if (saveflag)return;
+    saveflag = true;
+    var that = this;
+    var http = that.data.imagePath;
+    app.checkSettingStatu('scope.writePhotosAlbum',function(){
+      wx.saveImageToPhotosAlbum({
+        filePath: http,
+        success(res) {
+          saveflag = false;
+          wx.showModal({
+            title: '提示',
+            showCancel: false,
+            content: '保存成功',
+            success: function(){
+              that.setData({
+                dropFalg: false
+              })
+            }
+          })
+        },
+        fail: function () {
+          saveflag = false;
+          wx.showModal({
+            title: '提示',
+            showCancel: false,
+            content: '保存失败',
+          })
+        }
+      })
+    })
+  },
+  // 投稿
+  sendpic: function () {
+    var that = this;
+    if (sendflag) return;
+    sendflag = true;
+    var id = that.data.picid;
+    var url = pathUrl + '/ycontribute';
+    service.http1(url, {id: id}, function (data) {
+      sendflag = false;
+      var data = data.data;
+      if (data.err_code == '000') {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+          success: function(){
+            that.setData({
+              dropFalg: false
+            })
+          }
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  onReady: function () {
+    // 页面渲染完成
+  },
+  onShow: function () {
+    // 页面显示
+  },
+  onHide: function () {
+    // 页面隐藏
+  },
+  onUnload: function () {
+    // 页面关闭
+  }
+})

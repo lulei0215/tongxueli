@@ -1,0 +1,4 @@
+/* page/mycreate/mycreate.wxss */
+page{
+    background: #fff;
+}

@@ -1,0 +1,21 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:85:"C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\oky.html";i:1513238017;}*/ ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="refresh" content="1;url=<?php echo url('index/Index/login'); ?>" />
+</head>
+<body>
+<?php if($data['status'] ==2): ?>
+<h1>用户名错误 </h1><div>1s后跳转回来</div>
+
+<?php elseif($data['status'] == 1): ?>
+<h1>密码错误 </h1><div>1s后跳转回来</div>
+
+<?php elseif($data['status'] == 3): ?>
+<h1>验证码错误 </h1><div>1s后跳转回来</div>
+
+<?php else: endif; ?>
+</body>
+</html>

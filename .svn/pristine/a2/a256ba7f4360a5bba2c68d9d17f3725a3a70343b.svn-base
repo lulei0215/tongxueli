@@ -1,0 +1,27 @@
+<!--page/myscore/myscore.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="score_top">
+      <view class="img_circle">
+        <text class="ft20">积分</text>
+        <text class="ft60">{{info.points}}</text>
+      </view>
+      <view class="score_list">
+        <view class="border-bottom"></view>
+        <view class="score_title">积分明细</view>
+        <view wx-if='{{info && info.list.length==0}}' class='zwsj'>暂无数据</view>
+        <block wx:for="{{info.list}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+          <view class="score_li">
+            <view class="fr ftorag ft32">+{{i.point}}</view>
+            <view>
+              <text class="ft32 ftgrey1">{{i.title}}</text>
+              <text class="ftgrey">{{i.create_time}}</text>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+
+
+  </view>
+</view>

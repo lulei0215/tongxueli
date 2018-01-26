@@ -1,0 +1,6 @@
+/* page/myorder/myorder.wxss */
+.collect_li{
+    border-radius: 10rpx;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}

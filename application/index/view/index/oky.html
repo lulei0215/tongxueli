@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="refresh" content="1;url={:url('index/Index/login')}" />
+</head>
+<body>
+{if $data.status ==2}
+<h1>用户名错误 </h1><div>1s后跳转回来</div>
+
+{elseif $data.status == 1}
+<h1>密码错误 </h1><div>1s后跳转回来</div>
+
+{elseif $data.status == 3}
+<h1>验证码错误 </h1><div>1s后跳转回来</div>
+
+{else}
+{/if}
+</body>
+</html>

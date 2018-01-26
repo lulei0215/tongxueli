@@ -1,0 +1,108 @@
+// page/mycollect/mycollect.js
+var app = getApp();
+var picPath = app.globalData.picPath;
+var service = require('../../utils/util.js')
+var pathUrl = app.globalData.pathUrl;
+Page({
+  data: {
+    picPath: picPath
+  },
+  onLoad: function (options) {
+    // 页面初始化 options为页面跳转所带来的参数
+    var that = this;
+    that.getHttpInfo();
+  },
+  // 获取初始化信息
+  getHttpInfo: function () {
+    var that = this;
+    var url = pathUrl + '/mycollect';
+    service.http(url, {}, function (data) {
+      var data = data.data;
+      if (data.err_code == '000') {
+        that.setData({
+          info: data.data
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  // 取消收藏
+  del: function(e){
+    var that = this;
+    var url = pathUrl + '/collect';
+    var info = that.data.info;
+    var id = e.currentTarget.dataset.id;
+    var po = {
+      id: id
+    };
+    wx.showModal({
+      title: '提示',
+      content: '是否取消收藏',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('用户点击确定');
+          service.http1(url, po, function (data) {
+            var data = data.data;
+            if (data.err_code == '000') {
+              info = info.filter(function(ele){
+                if (ele.img_id != id){
+                  return ele
+                }
+              });
+              that.setData({
+                info: info
+              })
+            } else {
+              wx.showModal({
+                title: '提示',
+                showCancel: false,
+                content: data.err_msg,
+              })
+            };
+          }, function (data) {
+            wx.showToast({ title: '接口请求失败' });
+            console.log(data);
+          })
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
+    })
+  },
+  // 预览图片
+  bigpic: function (e) {
+    console.log("预览图片");
+    var that = this;
+    var idx = e.currentTarget.dataset.idx;
+    var info = that.data.info;
+    var picurlArr = [];
+    for (var i = 0; i < info.length; i++){
+      picurlArr[i] = info[i].url
+    };
+    console.log(idx,picurlArr[idx], picurlArr)
+    wx.previewImage({
+      current: picurlArr[idx], // 当前显示图片的http链接
+      urls: picurlArr // 需要预览的图片http链接列表
+    })
+  },
+  onReady: function () {
+    // 页面渲染完成
+  },
+  onShow: function () {
+    // 页面显示
+  },
+  onHide: function () {
+    // 页面隐藏
+  },
+  onUnload: function () {
+    // 页面关闭
+  }
+})

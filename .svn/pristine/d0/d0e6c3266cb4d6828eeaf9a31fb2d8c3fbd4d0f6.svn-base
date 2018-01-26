@@ -1,0 +1,85 @@
+<!--page/index/index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="index_top">
+        <image src="{{picPath}}/bd_logo.png" class="bd_logo"></image>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{picIdx}}" bindchange="idxchange">
+          <block wx:for="{{info.list}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+            <swiper-item>
+              <image bindtap='bigpic' src="{{i.url}}" mode="aspectFit" class="slide-image" lazy-load='true'/>
+            </swiper-item>
+          </block>
+        </swiper>
+
+        <view bindtap='picbtnClick' data-title='left' class="icon_left" hidden='{{picIdx==0}}'>
+          <image src="{{picPath}}/icon_left.png"></image>
+        </view>
+        <view bindtap='picbtnClick' data-title='right' class="icon_right" hidden='{{picIdx==29}}'>
+          <image src="{{picPath}}/icon_right.png"></image>
+        </view>
+
+      </view>
+      <view class="index_signin">
+        <view>
+          <image bindtap='collectClick' src="{{picPath}}/{{info.list[picIdx].collect_status=='1'?'icon_collhover':'icon_collect'}}.png"></image>
+        </view>
+        <view bindtap='dakaClick' wx-if='{{picIdx == 29}}'>
+          <image src="{{picPath}}/{{info.sign_status=='1'?'icon_signover':'icon_sign'}}.png"></image>
+        </view>
+         <view bindtap='toLast' wx-if='{{picIdx != 29}}'>
+          <image src="{{picPath}}/icon_today.png"></image>
+        </view>
+        <!--未打卡：icon_sign；已打卡：icon_signover-->
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator url="" class="bdnav_hover">
+        <icon class="icon_indhover"></icon>
+
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+
+        <!--当前状态，给view 加类名：ftblue-->
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+
+        <!--当前状态，给view 加类名：ftblue-->
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/percent/percent">
+        <icon class="icon_person"></icon>
+
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!--点击打卡弹框-->
+<view class="drop_overlay" wx-if='{{jfFlag}}'></view>
+<view class="drop_content" wx-if='{{jfFlag}}'>
+  <image bindtap='jfClick' data-title='cancle' src="{{picPath}}/icon_close.png" class="icon_close"></image>
+  <view class="sign_drop">
+    <view class="drop_bg">
+      <image src="{{picPath}}/icon_score_3.png" class="icon_score3"></image>
+      <view class="icon_one">
+        <image hidden='{{info.nowpoint10 == 0}}' src="{{picPath}}/icon_{{info.nowpoint10}}.png"></image>
+        <image src="{{picPath}}/icon_{{info.nowpoint1}}.png"></image>
+      </view>
+    </view>
+    <view class="drop_cont">
+      <view class="ft46">打卡成功</view>
+      <view class="ft24">{{info.day}}</view>
+      <view class="ft24 ftred">{{info.point}}</view>
+      <!--如果打卡是7天以内，下面一行显示：你目前的总积分为120；第7天显示上面那一行内容-->
+    </view>
+  </view>
+  <view class="button_w50">
+    <button bindtap='jfClick' data-title='riqian' class="button_blue">保存日签</button>
+    <button open-type='share' class="button_red">立马分享</button>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<!--page/candindex/candindex.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="candindex">
+        <view class="candi_list" bindtap="Editecand">
+          <image src="{{picPath}}/icon_front.png"></image>
+          <view>纯文字模版</view>
+        </view>
+        <view class="candi_list" bindtap="Edcandimg">
+          <image src="{{picPath}}/icon_picture.png"></image>
+          <view>图配文模板</view>
+        </view>
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <text>同学历</text>
+      </navigator>
+      <navigator url="" class="bdnav_hover">
+        <icon class="icon_cadhover"></icon>
+        <text class="">写日历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/percent/percent">
+        <icon class="icon_person"></icon>
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>

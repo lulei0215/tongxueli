@@ -1,0 +1,11 @@
+/* page/edcandimg/edcandimg.wxss */
+
+button{
+    margin-top: 20rpx;
+}
+.input-placeholder{
+    color: #666;
+}
+input{
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+/* page/myscore/myscore.wxss */
+page{
+    background: #fff;
+}

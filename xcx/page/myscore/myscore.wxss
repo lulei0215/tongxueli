@@ -1,0 +1,24 @@
+/* page/myscore/myscore.wxss */
+.per_topbg{
+  background: url(http://192.168.1.50/tongxueli/public/image/bg01.png) no-repeat;
+  background-size:contain;
+}
+.scor_top{
+    padding-top:80rpx;
+}
+.scor_top text{
+    display:block;
+}
+.scor_top text.ft110{
+    line-height: 110rpx;
+}
+.score_info{
+    line-height:38rpx;
+    padding-top: 17rpx;
+}
+.score_info text{
+    display: block;
+}
+.permk_li .ft36{
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+<!--page/mygiftinfo/mygiftinfo.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="collect_list fl w100">
+        <view class="collect_li fl w100 bgwhite">
+          <view class="order_li myaddress">
+            <!--没有地址显示-->
+            <view bindtap="toAddress" wx-if='{{info.addressinfo == ""}}' class="none_cont">
+              <icon class="fr icon_right1"></icon>
+              <view class="ft24 ftblod">收件人编辑信息</view>
+            </view>
+            <!--有地址显示-->
+            <view class="adres_info" wx-if='{{info && info.addressinfo != ""}}'>
+              <icon class="fr icon_right1"></icon>
+              <view class="ft24 ftblod ">{{info.addressinfo.name}}
+                <text>{{info.addressinfo.phone}}</text>
+              </view>
+              <view class="ft20">
+                <text>默认</text>{{info.addressinfo.addre}}</view>
+            </view>
+          </view>
+          <view class="order_li">
+            <view class="ftred fr">100积分</view>
+            <view class="ft24 ftblod">商品积分</view>
+          </view>
+          <view class="order_li">
+            <view class="ft24 ftblod">礼品明细</view>
+            <view class="gift_cont">
+              <view class=" fr">
+                <icon bindtap='inpClick' data-title='jian' class="icon_minus"></icon>
+                <input bindinput='inpClick' data-title='inp' type='number' value="{{num}}" class="gift_input" />
+                <icon bindtap='inpClick' data-title='jia' class="icon_add"></icon>
+              </view>
+              <image src="{{info.img}}" mode="aspectFit" class="img_order fl"></image>
+              <view class="ft24 ftblod">{{info.name}}</view>
+              <view class="ft24 ftred">{{info.point*num}}积分</view>
+            </view>
+          </view>
+        </view>
+        <button bindtap='submit' type="button" class="button_red">确认兑换</button>
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+      </navigator>
+      <navigator bindtap='toPercenter' url="" class="bdnav_hover">
+        <icon class="icon_perhover"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!--点击确认兑换弹框-->
+<view class="drop_overlay" wx-if='{{drowFlag}}'></view>
+<view class="drop_content" wx-if='{{drowFlag}}'>
+  <view class="sign_drop">
+    <view class="drop_bg">
+      <image src="{{picPath}}/img_01_1.png" class="img_circle"></image>
+    </view>
+    <view class="drop_cont">
+      <view class="ft24">恭喜您，使用{{info.point*num}}积分兑换了百度手册！</view>
+    </view>
+  </view>
+  <view class="button_w50">
+    <button class="button_blue" bindtap="Myorder">去订单中心查看</button>
+    <button class="button_red" bindtap="Index">返回首页</button>
+  </view>
+</view>

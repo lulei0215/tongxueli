@@ -1,0 +1,3858 @@
+---------------------------------------------------------------
+[ 2017-12-18T14:51:31+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：1,197.98kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:51:32+08:00 ] 0.0.0.0 GET /baidu/public/index.php/captcha.html
+[ info ] localhost/baidu/public/index.php/captcha.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：984.89kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\baidu\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:51:39+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/login.html
+[ info ] localhost/baidu/public/index.php/index/index/login.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,637.60kb] [文件加载：43]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579892',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'CWJRP',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: usrename[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:39]
+---------------------------------------------------------------
+[ 2017-12-18T14:52:03+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,198.70kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579892',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:03+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,148.73kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579892',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:28+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,199.00kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579924',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:28+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,148.84kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579924',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:29+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/product-category.html
+[ info ] localhost/baidu/public/index.php/index/index/product-category.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：983.90kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'product-category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:30+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,197.20kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:30+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.036003s][吞吐率：27.78req/s] [内存消耗：983.38kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:31+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/product-category.html
+[ info ] localhost/baidu/public/index.php/index/index/product-category.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：983.90kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'product-category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:31+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,197.20kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:31+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：983.38kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:52:33+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,213.15kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:53:18+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,052.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysyfVdmAvXaKOyZos',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '303049',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '211354796573142743.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Wed Dec 13 2017 18:51:38 GMT+0800 (中国标准时间)',
+  'size' => '302194',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access protected property think\File::$info[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:131]
+---------------------------------------------------------------
+[ 2017-12-18T14:54:01+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,043.70kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8aXJeUxxz4QO24EM',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '2550',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_2',
+  'name' => 'icon_z_order.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Fri Dec 08 2017 16:09:25 GMT+0800 (中国标准时间)',
+  'size' => '1711',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:54:55+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,044.03kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPXiZkGk228IWuXAj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_4',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:57:29+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,213.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T14:57:36+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,047.41kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGEIAV2bYFFrqE0mP',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '210531',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '856052620658303141.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Mon Dec 18 2017 14:49:58 GMT+0800 (中国标准时间)',
+  'size' => '209676',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]hash_file(): Unknown hashing algorithm: getUploadFileInfo[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\File.php:139]
+---------------------------------------------------------------
+[ 2017-12-18T14:58:03+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,047.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyB5HiB7nE6v4VKWX',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '2481',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => 'icon_z_ohover.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Fri Dec 08 2017 16:09:32 GMT+0800 (中国标准时间)',
+  'size' => '1640',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]hash_file(): Unknown hashing algorithm: getUploadFileInfo[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\File.php:139]
+---------------------------------------------------------------
+[ 2017-12-18T15:01:06+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,213.20kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:01:19+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,043.85kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylg4cPLHAKA0HDZeJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '210531',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '856052620658303141.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Mon Dec 18 2017 14:49:58 GMT+0800 (中国标准时间)',
+  'size' => '209676',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:02:00+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,213.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:02:05+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,043.88kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrxlNc4GEzr06GzKt',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '303049',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '211354796573142743.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Wed Dec 13 2017 18:51:38 GMT+0800 (中国标准时间)',
+  'size' => '302194',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:02:31+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,043.80kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYkpLzxzJMnJNl2rW',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:03:36+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,212.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:03:43+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,046.13kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryib93cI69jBYJAebl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: info[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:127]
+---------------------------------------------------------------
+[ 2017-12-18T15:04:42+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,043.84kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1AIyeOi0d890Xa6B',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '303049',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '211354796573142743.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Wed Dec 13 2017 18:51:38 GMT+0800 (中国标准时间)',
+  'size' => '302194',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:04:57+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,213.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:05:02+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,043.80kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaU6hU62QbhRETeDj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:08:06+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,213.34kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:08:11+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,047.51kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMZXi3DFrAk78Cnon',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]hash_file(): Unknown hashing algorithm: getUploadFileInfo[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\File.php:139]
+---------------------------------------------------------------
+[ 2017-12-18T15:19:11+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,213.05kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:19:18+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,043.66kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoJyAbymV5XKEtl56',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:19:39+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,213.15kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:19:44+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,052.56kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJFMAjd6thAyqENHd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access protected property think\File::$info[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:134]
+---------------------------------------------------------------
+[ 2017-12-18T15:20:00+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,213.28kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:20:06+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,052.63kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr5jUP9eFB2x5kD0R',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method think\File::info()[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:134]
+---------------------------------------------------------------
+[ 2017-12-18T15:20:24+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,213.28kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:23:41+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：988.28kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ')'[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:133]
+---------------------------------------------------------------
+[ 2017-12-18T15:23:49+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,199.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:23:49+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,148.94kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513579949',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:23:57+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,197.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:23:57+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：983.46kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:23:58+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,213.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:24:03+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,043.80kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCkpRBBsRDyg5E73X',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:24:20+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,213.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:24:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,043.78kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMEIWk0t2i2dCzbZi',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:28:30+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,213.20kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T15:28:35+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,043.83kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybOPhOSyrSwON3bzo',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:06:29+08:00 ] 192.168.1.120 GET /baidu/public/index.php/index/Wx/getopenid
+[ info ] 192.168.1.120/baidu/public/index.php/index/Wx/getopenid [运行时间：1.520087s][吞吐率：0.66req/s] [内存消耗：1,001.54kb] [文件加载：35]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getopenid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => '192.168.1.120',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wx->getopenid[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Wx.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: session_key[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Wx.php:25]
+---------------------------------------------------------------
+[ 2017-12-18T16:31:04+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,213.91kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:31:09+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,047.95kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJpFhEBlmheBAkHId',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: files[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:117]
+---------------------------------------------------------------
+[ 2017-12-18T16:31:25+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,213.96kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:31:31+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,044.45kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAD7DZDMRJVv4DUmJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:13+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,334.42kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:13+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,149.95kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513581830',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:18+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,198.29kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:18+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：984.48kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:19+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,214.28kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:32:24+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,044.72kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarympytEVsEhvZNj15B',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:33:01+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,214.43kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:33:05+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,022.95kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVzaDllQ8XuAfSQ7Y',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:35:08+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,214.43kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:35:20+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,048.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKr6A9yzV9iVgn6iF',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:118]
+---------------------------------------------------------------
+[ 2017-12-18T16:37:39+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,048.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXnufwmgbsxBav8RK',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '210531',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '856052620658303141.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Mon Dec 18 2017 14:49:58 GMT+0800 (中国标准时间)',
+  'size' => '209676',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:118]
+---------------------------------------------------------------
+[ 2017-12-18T16:37:50+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,200.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:37:50+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,150.22kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513585934',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:37:52+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,198.41kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:37:52+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：984.63kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:37:53+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,378.16kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:37:58+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,048.37kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNHQXQLYFt5Wm9hIf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:118]
+---------------------------------------------------------------
+[ 2017-12-18T16:55:54+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,203.98kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:55:54+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,153.87kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513586271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:55:57+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,202.23kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:55:57+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：988.38kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:55:58+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,381.88kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:56:02+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,052.28kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryn4Ba3XZoTGFmpUOb',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9326',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => 'logo.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:120]
+---------------------------------------------------------------
+[ 2017-12-18T16:57:13+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,052.30kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUpxtz3R5BP9R8cve',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '2017-02-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:120]
+---------------------------------------------------------------
+[ 2017-12-18T16:57:41+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,218.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:57:51+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,052.33kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4OqjQmrrj25Q37YL',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-02-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 2[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:121]
+---------------------------------------------------------------
+[ 2017-12-18T16:58:13+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,203.98kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:58:14+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,153.88kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587355',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:58:19+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,202.19kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:58:19+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：988.41kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:58:20+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,218.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:58:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,052.41kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybNwPIhUCugR9loKj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-02-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]A non well formed numeric value encountered[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:123]
+---------------------------------------------------------------
+[ 2017-12-18T16:59:06+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,218.23kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T16:59:11+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,052.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUeYeLy9aDjoQuEuw',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-02-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]A non well formed numeric value encountered[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:122]
+---------------------------------------------------------------
+[ 2017-12-18T17:00:01+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,052.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytr2LYEAiA8BPs3vQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9336',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '2017-2-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]A non well formed numeric value encountered[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:122]
+---------------------------------------------------------------
+[ 2017-12-18T17:00:33+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,204.47kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:00:34+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,154.32kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587495',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:00:37+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,202.72kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:00:37+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/temp/200x150.jpg
+[ info ] localhost/baidu/public/index.php/index/index/temp/200x150.jpg [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：988.90kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:00:38+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,218.70kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:00:43+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,077.38kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytnPh0ec8cT0EGooB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9336',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-2-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]A non well formed numeric value encountered[C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php:125]
+---------------------------------------------------------------
+[ 2017-12-18T17:01:17+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,218.70kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:01:21+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,645.89kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4b5LwzLeVsHQMVvi',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9336',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-2-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-2-11' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]数据表字段不存在:[img][C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2017-12-18T17:03:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,617.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypNL1aLb8sSqtny4a',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '2017-02-11.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-11' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url` , `name`) VALUES ('http://localhost\\uploads/2017-02-11.jpg' , '2017-02-11') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:03:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,617.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQkf2s9A35wyxQyQO',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_4',
+  'name' => '2017-02-20.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-20' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url` , `name`) VALUES ('http://localhost\\uploads/2017-02-20.jpg' , '2017-02-20') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:03:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,617.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjJ4fACa8JCegCgec',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_5',
+  'name' => '2017-02-21.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-21' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url` , `name`) VALUES ('http://localhost\\uploads/2017-02-21.jpg' , '2017-02-21') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:03:26+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：1,617.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKnOKOBmj9g0UAsAB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_2',
+  'name' => '2017-02-18.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-18' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url` , `name`) VALUES ('http://localhost\\uploads/2017-02-18.jpg' , '2017-02-18') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:03:27+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,617.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeMhBGNZXBfQTtEhl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_3',
+  'name' => '2017-02-19.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-19' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url` , `name`) VALUES ('http://localhost\\uploads/2017-02-19.jpg' , '2017-02-19') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:04:24+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,218.94kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:04:33+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,640.53kb] [文件加载：41]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu0EQDy1stT1Sf8n9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_0',
+  'name' => '2017-02-18.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-18' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： boolean[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-18T17:04:33+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,640.53kb] [文件加载：41]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjmBtmOf7C8OZjJz1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_1',
+  'name' => '2017-02-19.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-19' LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： boolean[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-18T17:04:33+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,640.53kb] [文件加载：41]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEC1UX6o11uJUkxyP',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_3',
+  'name' => '2017-02-21.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-21' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： boolean[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-18T17:04:34+08:00 ] 0.0.0.0 POST /baidu/public/index.php/index/index/upload.html
+[ info ] localhost/baidu/public/index.php/index/index/upload.html [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,640.53kb] [文件加载：41]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imgadd.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypWdVRCvh6QdUAOif',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'origin' => 'http://localhost',
+  'content-length' => '9338',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '123',
+  'id' => 'WU_FILE_2',
+  'name' => '2017-02-20.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Fri Dec 15 2017 11:00:39 GMT+0800 (中国标准时间)',
+  'size' => '8501',
+)
+[ info ] [ RUN ] app\index\controller\Index->upload[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` = '2017-02-20' LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： boolean[C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-18T17:06:10+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imgadd.html
+[ info ] localhost/baidu/public/index.php/index/index/imgadd.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,382.38kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imgadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/imglist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imgadd[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:10:11+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,205.35kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:10:11+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,155.16kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513587635',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:10:13+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,935.04kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513588211',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-18T17:10:46+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/login
+[ info ] localhost/baidu/public/index.php/index/index/login [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,205.19kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513588211',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:10:46+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/welcome.html
+[ info ] localhost/baidu/public/index.php/index/index/welcome.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,155.06kb] [文件加载：37]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513588211',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-18T17:10:48+08:00 ] 0.0.0.0 GET /baidu/public/index.php/index/index/imglist.html
+[ info ] localhost/baidu/public/index.php/index/index/imglist.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,934.94kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\baidu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4729954304; PHPSESSID=99c2ah1jftjjf5n4rmoaivh1i2; Hm_lvt_080836300300be57b7f34f4b3e97d911=1513233626,1513301763,1513579892; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1513588247',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/baidu/public/index.php/index/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\baidu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\baidu\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=baidu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` [ RunTime:0.000000s ]

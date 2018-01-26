@@ -1,0 +1,47 @@
+<!--page/address/address.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <form bindsubmit="formSubmit">
+        <view class="collect_list fl w100">
+          <view class="collect_li fl w100 bgwhite">
+            <view class="address_li">
+              <picker name='address' mode="region" bindchange="bindRegionChange" value="{{region}}">
+                <view class="picker">
+                  当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+                </view>
+              </picker>
+            </view>
+            <view class="address_li">
+              <input name='cont' type="text" placeholder="详细地址，如街道、楼牌号等" value="" />
+            </view>
+            <view class="address_li">
+              <input name='name' type="text" placeholder="姓名" value="" />
+            </view>
+            <view class="address_li">
+              <input name='phone' type="number" maxlength='11' placeholder="手机号码" value="" />
+            </view>
+          </view>
+          <button form-type='submit' type="button" class="button_blue">保存地址</button>
+        </view>
+      </form>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+      </navigator>
+      <navigator bindtap='toPercenter' class="bdnav_hover">
+        <icon class="icon_perhover"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>

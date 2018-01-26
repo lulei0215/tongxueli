@@ -1,0 +1,5 @@
+/* page/editecand/editecand.wxss */
+
+button{
+    margin-top: 20rpx;
+}

@@ -1,0 +1,47 @@
+<!--page/myscore/myscore.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="per_topbg">
+        <view class="scor_top">
+          <text>总积分</text>
+          <text class="ft110">{{info.points}}</text>
+        </view>
+
+      </view>
+      <view class="per_mokuai bgwhite">
+        <view class="permk_li">
+          <text class="ft36">积分明细</text>
+        </view>
+        <view wx-if='{{info && info.list.length==0}}' class='zwsj'>暂无数据</view>
+        <block wx:for="{{info.list}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+          <view class="permk_li">
+            <view class="fr {{i.point_type==1?'ftred':''}} ft42">{{i.point_type==1?'+':'-'}}{{i.point}}</view>
+            <!--增加的，给text添加ftred属性，如果是减少的，则没有这属性-->
+            <view class="score_info">
+              <text class="ftblod">{{i.title}}</text>
+              <text class="ft20 ftgrey">{{i.create_time}}</text>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+      </navigator>
+      <navigator open-type='navigateBack' url="/page/percent/percent" class="bdnav_hover">
+        <icon class="icon_perhover"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>

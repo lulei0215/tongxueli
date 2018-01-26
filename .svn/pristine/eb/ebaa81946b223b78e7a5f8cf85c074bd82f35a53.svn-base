@@ -1,0 +1,238 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+use think\Session;
+use think\Request;
+use think\Cookie;
+use think\Captcha;
+class Index extends Controller
+{
+    public function logout(){
+
+
+       
+        Session::clear('username');
+
+
+        $this->redirect('index/Index/login');
+
+    }
+
+    public function login(){
+      if(request()->isPost()){
+            $post = request()->post();
+            $captcha = new \think\captcha\Captcha;
+            $code=$post['captcha'];
+            $captcha = new \think\captcha\Captcha();
+            $a = $captcha->check($code);
+            if($a == $code){
+                  $data = Db::name('admin')->where('username',$post['username'])->find();  
+              if($data){
+                    $sta = ($data['password'] == $post['password']);
+                    if($sta){
+                          Session::set('username',$post['username']);
+                         return view('index',['username'=>$post['username']]);
+                    }else{
+                                //密码错误
+                          $data=['status'=>2];
+                          return view('oky',['data'=>$data]);
+                    }
+              }else{
+                 //用户名错误
+              $data=['status'=>2];
+              return view('oky',['data'=>$data]);
+              }
+
+            }else{
+              //验证码错误
+              $data=['status'=>3];
+              return view('oky',['data'=>$data]);
+            }
+           
+        }else{
+              if(Session::has('username')){
+                $username = Session::get('username');
+                   return view('index',['username'=>$username]);
+              }else{
+                      return view('login');
+              }
+      
+        }
+
+    }
+    public function welcome(){
+
+      return view('welcome');
+    }
+    //图片列表
+    public function imglist(){
+      $data =   Db::name('image')->order('name')->select();
+      return view('picture-list',['data'=>$data]);
+    }
+    //图片添加
+  public function imgadd(){
+
+    return view('picture-add');
+    }
+
+
+    //批量删除接口
+    public function imgdeletes(){
+        
+      if(request()->iSpost()){
+        $post = request()->post();
+
+      
+
+        $ids = explode(',',$post['ids']);
+        $ii = ''
+        foreach ($ids as $key => $value) {
+          $ii .= $value.',';
+         //Db::name('image')->where('id',$value)->update();
+        }
+        dump(1);
+  return $ii;
+
+      }
+    }
+    //图片修改
+    public function imgedit(){
+         if(request()->isPost()){
+            $post = request()->post();
+            $file = request()->file('image');
+            $id = $post['id'];
+            // $name = $post['imgname'];
+            // $year = explode('-',$name)[0];
+            // $month = explode('-',$name)[1];
+            // $day = explode('-',$name)[2];
+            // if(strlen($year)==4){}else{return false;}
+            // if(strlen($month)==2){}else{return false;}
+            // if(strlen($day)==2){}else{return false;}
+    
+            if($file){
+              $info = $file->validate(['size' => 156780000000, 'ext' => 'jpg'])->move(ROOT_PATH . 'public/uploads');
+
+            
+              if($info){
+                        $sa= ['url'=>'http://'.$_SERVER['HTTP_HOST'].'/public/uploads' . "/".$info->getSaveName()];
+                  
+          
+                        $stat = Db::name('image')->where('id',$id)->update($sa);
+                        if($stat){
+
+                          $this->redirect('index/Index/imglist');
+                        
+                        }else{
+                                halt($sa);
+                                    $this->redirect('index/Index/imglist');
+                        }
+              
+                                }else{
+                                  return false;
+                                    // 上传失败获取错误信息
+                                    //echo $file->getError();
+                                }
+                }else{
+
+              //halt($post);
+           
+                 $this->redirect('index/Index/imglist');
+        }
+         }else{
+          $get = request()->get();
+
+          $id = $get['id'];
+          $data = Db::name('image')->where('id',$id)->find();
+        return view('picture-edit',['data'=>$data]);
+              }
+    }
+    //图片删除
+    public function imgdelete(){
+  
+      if(request()->isPost()){
+                $post = request()->post();
+                $id = $_POST['id'];
+                $data = Db::name('image')->where('id',$id)->delete();
+                if($data){
+                    return 1;
+                }else{
+                    return 0;
+                }
+            }else{
+                return 0;
+            }
+
+
+
+    }
+
+
+
+    public function upload(){
+            // 获取表单上传文件 例如上传了001.jpg
+      $file = request()->file('file'); if(!$file){return false;};
+      $savename = $file->getInfo()['name'];
+      $infos = $file->getInfo()['name'];
+      $name = explode('.',$infos)[0];
+        // 移动到框架应用根目录/public/uploads/ 目录下
+        $info = $file->validate(['size' => 156780000000, 'ext' => 'jpg'])->move(ROOT_PATH . 'public/uploads');
+        dump($file->getInfo());
+
+        if($info){
+      // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
+     // $path =  $info->getExtension();
+            // 成功上传后 返回上传信息
+        //$info =   json_decode($info,true);
+          $year = explode('-',$name)[0];
+          $month = explode('-',$name)[1];
+          $day = explode('-',$name)[2];
+           if(strlen($year)==4){}else{return false;}
+           if(strlen($month)==2){}else{return false;}
+           if(strlen($day)==2){}else{return false;}
+          // dump($year);
+          // dump($month);
+          // dump($day);
+          $dd = checkdate($month, $day, $year);
+          if($dd){
+
+
+      $savename = $file->getInfo()['name'];
+      $name = explode('.',$savename)[0];
+      $sa['url'] = 'http://'.$_SERVER['HTTP_HOST'].'/public/uploads' . "/".$info->getSaveName();
+      $sa['name'] = $name = explode('.',$savename)[0];
+      $sa['create_time'] = date('Y-m-d H:i:s');
+      dump($sa);
+       $status = Db::name('image')->where('name',$name)->find();
+       if($status){
+            return false;
+       }else{
+          $img = Db::name('image')->insert($sa);
+          if($img){
+                return 1;
+          }else{
+                return 0;
+          }
+       }
+}else{
+  return '图片名称错误';
+}
+        //return json(array('state'=>0,'errmsg'=>'上传失败'));
+      //return json(array('state'=>1,'path'=>$path));
+        }else{
+          
+            // 上传失败返回错误信息
+      return false;
+        }
+    }
+    public function index()
+    {
+        if(Session::has('username')){
+          return view('index');
+        }else{
+          $this->redirect('index/Index/login');
+        }
+    }
+   
+
+}

@@ -1,0 +1,4 @@
+/* page/mycollect/mycollect.wxss */
+page{
+    background: #fff;
+}

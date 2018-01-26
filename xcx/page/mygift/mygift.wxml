@@ -1,0 +1,36 @@
+<!--page/mygift/mygift.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="mygift fl w100">
+        <block wx:for="{{info}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+          <view class="gift_li">
+            <image src="{{i.img}}" mode="aspectFit" class="img_gift"></image>
+            <view class="ft24">
+              <text class="ftred fr">{{i.point}}积分</text>
+              <text class="gift_name">{{i.name}}</text>
+            </view>
+            <button bindtap='toGiftinfo' data-id='{{i.id}}' type="button" class="button_blue">立即兑换</button>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+      </navigator>
+      <navigator open-type='navigateBack' url="/page/percent/percent" class="bdnav_hover">
+        <icon class="icon_perhover"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>

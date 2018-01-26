@@ -1,0 +1,282 @@
+<?php
+namespace app\index\controller;
+use think\Db;
+use think\Session;
+use think\Request;
+use think\Cookie;
+use think\Captcha;
+class Index
+{
+    public function logout(){
+
+
+       
+        Session::clear('username');
+
+
+        $this->redirect('index/Index/login');
+
+    }
+
+    public function login(){
+      if(request()->isPost()){
+            $post = request()->post();
+            $captcha = new \think\captcha\Captcha;
+            $code=$post['captcha'];
+            $captcha = new \think\captcha\Captcha();
+            $a = $captcha->check($code);
+            if($a == $code){
+                  $data = Db::name('admin')->where('username',$post['username'])->find();  
+              if($data){
+                    $sta = ($data['password'] == $post['password']);
+                    if($sta){
+                          Session::set('username',$post['username']);
+                         return view('index',['username'=>$post['username']]);
+                    }else{
+                                //密码错误
+                          $data=['status'=>2];
+                          return view('oky',['data'=>$data]);
+                    }
+              }else{
+                 //用户名错误
+              $data=['status'=>2];
+              return view('oky',['data'=>$data]);
+              }
+
+            }else{
+              //验证码错误
+              $data=['status'=>3];
+              return view('oky',['data'=>$data]);
+            }
+           
+        }else{
+              if(Session::has('username')){
+                $username = Session::get('username');
+                   return view('index',['username'=>$username]);
+              }else{
+                      return view('login');
+              }
+      
+        }
+
+    }
+    public function welcome(){
+
+      return view('welcome');
+    }
+    //图片列表
+    public function imglist(){
+      $data =   Db::name('image')->order('name')->select();
+      return view('picture-list',['data'=>$data]);
+    }
+    //图片添加
+  public function imgadd(){
+
+    return view('picture-add');
+    }
+
+
+    //批量删除接口
+    public function imgdeletes(){
+      
+    
+    }
+    //图片修改
+    public function imgedit(){
+         if(request()->isPost()){
+
+         }else{
+          $get = request()->get();
+
+          $id = $get['id'];
+          $data = Db::name('image')->where('id',$id)->find();
+        return view('picture-edit',['data'=>$data]);
+              }
+    }
+    //图片删除
+    public function imgdelete(){
+  
+      if(request()->isPost()){
+                $post = request()->post();
+                $id = $_POST['id'];
+                $data = Db::name('image')->where('id',$id)->delete();
+                if($data){
+                    return 1;
+                }else{
+                    return 0;
+                }
+            }else{
+                return 0;
+            }
+
+
+
+    }
+
+    //签到接口
+    public function sign(){
+
+    }
+
+    //收藏接口
+    public function collect(){
+
+
+    }
+
+
+    public function upload(){
+            // 获取表单上传文件 例如上传了001.jpg
+      $file = request()->file('file');
+      $savename = $file->getInfo()['name'];
+      $infos = $file->getInfo()['name'];
+      $name = explode('.',$infos)[0];
+        // 移动到框架应用根目录/public/uploads/ 目录下
+        $info = $file->validate(['size' => 156780000000, 'ext' => 'jpg'])->move(ROOT_PATH . 'public/uploads');
+        dump($file->getInfo());
+
+        if($info){
+      // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
+     // $path =  $info->getExtension();
+            // 成功上传后 返回上传信息
+        //$info =   json_decode($info,true);
+          $year = explode('-',$name)[0];
+          $month = explode('-',$name)[1];
+          $day = explode('-',$name)[2];
+          // dump($year);
+          // dump($month);
+          // dump($day);
+          $dd = checkdate($month, $day, $year);
+          if($dd){
+
+
+      $savename = $file->getInfo()['name'];
+      $name = explode('.',$savename)[0];
+      $sa['url'] = 'http://'.$_SERVER['HTTP_HOST'].'/public/uploads' . "/".$info->getSaveName();
+      $sa['name'] = $name = explode('.',$savename)[0];
+      $sa['create_time'] = date('Y-m-d H:i:s');
+      dump($sa);
+       $status = Db::name('image')->where('name',$name)->find();
+       if($status){
+            return false;
+       }else{
+          $img = Db::name('image')->insert($sa);
+          if($img){
+                return 1;
+          }else{
+                return 0;
+          }
+       }
+}else{
+  return '图片名称错误';
+}
+        //return json(array('state'=>0,'errmsg'=>'上传失败'));
+      //return json(array('state'=>1,'path'=>$path));
+        }else{
+          
+            // 上传失败返回错误信息
+      return false;
+        }
+    }
+    public function index()
+    {
+        if(Session::has('username')){
+          return view('index');
+        }else{
+          $this->redirect('index/Index/login');
+        }
+    }
+    //导入商品
+    public function tbk(){
+		vendor("PHPOFFICE.PHPExcelClass.PHPExcel");
+		$dir = 'C:\phpStudy\PHPTutorial\WWW\tbk';
+	    $file_name = $this->read_all_dir($dir)['path'];
+	    $objReader = \PHPExcel_IOFactory::createReader('Excel5');
+
+
+        $objPHPExcel = $objReader->load($file_name, $encode = 'utf-8');  
+        $excel_array = $objPHPExcel->getsheet(0)->toArray();   //转换为数组格式
+             array_shift($excel_array);  //删除第一个数组(标题);
+             $city = [];
+             dump($excel_array);
+             $status = '';
+               foreach ($excel_array as $k => $v) {
+               	$city['create_time'] = $v[0];
+               	$city['click_time'] = $v[1];
+               	$city['goods'] = $v[2];
+               	$city['goods_id'] = $v[3];
+               	$city['seller'] = $v[4];
+               	$city['shop'] = $v[5];
+               	$city['num'] = $v[6];
+               	$city['price'] = $v[7];
+               	$city['order_status'] = $v[8];
+               	$city['order_type'] = $v[9];
+               	$city['income_ratio'] = $v[10];
+               	$city['divided_into_ratio'] = $v[11];
+               	$city['payment'] = $v[12];
+               	$city['effect_estimates'] = $v[13];
+               	$city['clearing_time'] = $v[14];
+               	$city['commission_rate'] = $v[15];
+               	$city['amount_of_commission'] = $v[16];
+               	$city['subsidy_ratio'] = $v[17];
+               	$city['subsidy_amount'] = $v[18];
+               	$city['subsidy_type'] = $v[19];
+               	$city['platform'] = $v[20];
+               	$city['third_serivice'] = $v[21];
+               	$city['trade_id'] = $v[22];
+               	$city['cate_name'] = $v[23];
+               	$city['source_media_id'] = $v[24];
+               	$city['source_media_name'] = $v[25];
+               	$city['ad_id'] = $v[26];
+               	$city['ad_name'] = $v[27];
+            
+            $status  .= Db::name('tk_orderlist')->insert($city);
+            }
+            echo $status;
+    }
+
+	public function read_all_dir ( $dir )
+    {
+        $result = array();
+        $handle = opendir($dir);
+        if ( $handle )
+        {
+        	$i = 0;
+            while ( ( $file = readdir ( $handle ) ) !== false )
+            {
+                if ( $file != '.' && $file != '..')
+                {
+                    $cur_path = $dir . DIRECTORY_SEPARATOR . $file;
+                    if ( is_dir ( $cur_path ) )
+                    {
+                        $result['dir'][$cur_path] = read_all_dir ( $cur_path );
+                    }
+                    else
+                    {
+                        $result[$i]['path'] = $cur_path;
+                        $result[$i]['time'] = fileatime($cur_path);
+                    }
+                    $i++;
+                }
+            }
+            closedir($handle);
+        }
+
+ $length = count($result);
+    for($i = 0;$i < $length - 1;$i ++){
+        for($j = $i + 1;$j < $length;$j ++){
+            //将小的关键字放前面
+            if($result[$i]['time'] > $result[$j]['time']){
+                $temp = $result[$i];
+                $result[$i] = $result[$j];
+                $result[$j] = $temp;
+            }
+        }
+    }
+    $num = count($result);
+        return($result[$num-1]);
+
+    }
+
+
+}

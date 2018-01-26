@@ -1,0 +1,58 @@
+<!--page/index/index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="index_top bgwhite">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{picIdx}}" bindchange="idxchange">
+          <block wx:for="{{info.list}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+            <swiper-item>
+              <image bindtap='bigpic' src="{{i.url}}" mode="aspectFit" class="slide-image" lazy-load='true'/>
+            </swiper-item>
+          </block>
+        </swiper>
+        <view bindtap='picbtnClick' data-title='left' class="icon_left" hidden='{{picIdx==0}}'>
+          <image src="{{picPath}}/icon_left.png"></image>
+        </view>
+        <view bindtap='picbtnClick' data-title='right' class="icon_right" hidden='{{picIdx==29}}'>
+          <image src="{{picPath}}/icon_right.png"></image>
+        </view>
+      </view>
+      <view class="index_signin">
+        <view>
+          <image bindtap='collectClick' src="{{picPath}}/{{info.list[picIdx].collect_status=='1'?'icon_collect1':'icon_collect2'}}.png"></image>
+        </view>
+        <view bindtap='dakaClick' wx-if='{{picIdx == 29}}'>
+          <image src="{{picPath}}/{{info.sign_status=='1'?'icon_signover':'icon_sign'}}.png"></image>
+        </view>
+        <!--未打卡：icon_sign；已打卡：icon_signover-->
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator url="">
+        <icon class="icon_cadhover"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <view class="ftblue">同学历</view>
+        <!--当前状态，给view 加类名：ftblue-->
+      </navigator>
+      <navigator open-type='redirect' url="/page/percent/percent">
+        <icon class="icon_person"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <view>个人中心</view>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!--点击打卡弹框-->
+<!--是否自动填入gps定位的经纬度弹出层-->
+<view class="drop_overlay" wx-if='{{jfFlag}}'></view>
+<view class="drop_content" wx-if='{{jfFlag}}'>
+  <image bindtap='jfClick' data-title='cancle' src="{{picPath}}/icon_close.png" class="icon_close"></image>
+  <view class="sign_drop ftblue">
+    <image src="{{picPath}}/icon_score1.png"></image>积分
+    <text class="ft60">+1</text>
+  </view>
+  <view class="button_w50">
+    <button bindtap='jfClick' data-title='riqian' class="button_red">保存日签</button>
+    <button open-type='share' class="button_red">立马分享</button>
+  </view>
+</view>

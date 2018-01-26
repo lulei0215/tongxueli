@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/candindex/candindex",
+    "page/editecand/editecand",
+    "page/address/address",
+    "page/mygiftinfo/mygiftinfo",
+    "page/mygift/mygift",
+    "page/myorder/myorder",
+    "page/mycreate/mycreate",
+    "page/myscore/myscore",
+    "page/mycollect/mycollect",
+    "page/percent/percent",
+    "page/edcandimg/edcandimg"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "同学历",
+    "navigationBarBackgroundColor": "#2932E1",
+    "backgroundColor": "#ffffff"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

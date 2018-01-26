@@ -1,0 +1,312 @@
+// page/index/index.js
+var app = getApp();
+var picPath = app.globalData.picPath;
+var service = require('../../utils/util.js')
+var pathUrl = app.globalData.pathUrl;
+var collectflag = false, dakaflag = false;
+Page({
+  data: {
+    picPath: picPath,
+    indicatorDots: false,
+    autoplay: false,
+    interval: 5000,
+    duration: 1000,
+    picIdx: 29,
+
+    jfFlag: false
+  },
+  onLoad: function (options) {
+    // 页面初始化 options为页面跳转所带来的参数
+    var that = this;
+    var session;
+    var times = setInterval(function () {
+      session = wx.getStorageSync('session');
+      if (session != '') {
+        clearInterval(times);
+        that.getHttpInfo();
+      }
+    }, 30)
+  },
+  onReady: function () {
+    // 页面渲染完成
+  },
+  onShow: function () {
+    // 页面显示
+  },
+  // 获取初始化信息
+  getHttpInfo: function () {
+    var that = this;
+    var url = pathUrl + '/xindex';
+    service.http(url, {}, function (data) {
+      var data = data.data;
+      if (data.err_code == '000') {
+        that.setData({
+          info: data.data
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  // 滑动事件
+  idxchange: function (e) {
+    console.log(e.detail.current);
+    var that = this;
+    that.setData({
+      picIdx: e.detail.current
+    })
+  },
+  // 图片左右滑动
+  picbtnClick: function (e) {
+    var that = this;
+    var title = e.currentTarget.dataset.title;
+    var picIdx = that.data.picIdx;
+    if (title == 'left') {
+      that.setData({
+        picIdx: picIdx - 1
+      })
+    } else {
+      that.setData({
+        picIdx: picIdx + 1
+      })
+    }
+  },
+  // 预览图片
+  bigpic: function () {
+    console.log("预览图片");
+    var that = this;
+    var picurl = that.data.info.list[that.data.picIdx].url
+    wx.previewImage({
+      current: '', // 当前显示图片的http链接
+      urls: [picurl] // 需要预览的图片http链接列表
+    })
+  },
+  // 收藏点击
+  collectClick: function () {
+    if (collectflag) return;
+    collectflag = true;
+    var that = this;
+    var url = pathUrl + '/collect';
+    var picIdx = that.data.picIdx;
+    var info = that.data.info;
+    var po = {
+      id: info.list[picIdx].id
+    };
+    service.http1(url, po, function (data) {
+      collectflag = false;
+      var data = data.data;
+      if (data.err_code == '000') {
+        if (info.list[picIdx].collect_status == '1') {
+          info.list[picIdx].collect_status = '0';
+        } else {
+          info.list[picIdx].collect_status = '1';
+        }
+        that.setData({
+          info: info
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  // 打卡
+  dakaClick: function () {
+    var that = this;
+    if (dakaflag) return;
+    var info = that.data.info;
+    if (info.sign_status == '1') return;
+    dakaflag = true;
+    var url = pathUrl + '/sign';
+    service.http1(url, {}, function (data) {
+      dakaflag = false;
+      var data = data.data;
+      if (data.err_code == '000') {
+        info.sign_status = '1'
+        info.day = data.data.day;
+        info.point = data.data.point;
+        info.nowpoint = data.data.nowpoint;
+        info.nowpointlen = data.data.nowpoint.length;
+        info.nowpoint10 = parseInt(data.data.nowpoint / 10);
+        info.nowpoint1 = info.nowpoint - info.nowpoint10*10;
+        console.log(info);
+        that.setData({
+          info: info,
+          jfFlag: true
+        })
+      } else {
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: data.err_msg,
+        })
+      }
+    }, function (data) {
+      wx.showToast({ title: '接口请求失败' });
+      console.log(data);
+    })
+  },
+  // 保存相册
+  jfClick: function (e) {
+    var that = this;
+    var title = e.currentTarget.dataset.title;
+    var picsrc = that.data.info.list[29].url;
+    picsrc = picsrc.replace(/http/, 'https');
+    that.setData({
+      jfFlag: false
+    });
+    if (title == 'riqian') {
+      app.checkSettingStatu('scope.writePhotosAlbum', function () {
+        wx.downloadFile({
+          url: picsrc, //仅为示例，并非真实的资源
+          success: function (res) {
+            // 只要服务器有响应数据，就会把响应内容写入文件并进入 success 回调，业务需要自行判断是否下载到了想要的内容
+            if (res.statusCode === 200) {
+              wx.saveImageToPhotosAlbum({
+                filePath: res.tempFilePath,
+                success: function (res) {
+                  wx.showModal({
+                    title: '提示',
+                    showCancel: false,
+                    content: '保存成功',
+                  })
+                },
+                fail: function (res) {
+                  wx.showModal({
+                    title: '提示',
+                    showCancel: false,
+                    content: '保存失败',
+                  })
+
+                }
+              })
+            }
+          },
+          fail: function (res) {
+            wx.showModal({
+              title: '提示',
+              showCancel: false,
+              content: '图片下载失败',
+            })
+          }
+        })
+      })
+      // wx.showModal({
+      //   title: '提示',
+      //   content: '“同学日历”要保存图片到您的相册是否允许',
+      //   cancelText: '不允许',
+      //   confirmText: '允许',
+      //   success: function (res) {
+      //     if (res.confirm) {
+      //       console.log('用户点击确定');
+      //       wx.downloadFile({
+      //         url: picsrc, //仅为示例，并非真实的资源
+      //         success: function (res) {
+      //           // 只要服务器有响应数据，就会把响应内容写入文件并进入 success 回调，业务需要自行判断是否下载到了想要的内容
+      //           if (res.statusCode === 200) {
+      //             wx.saveImageToPhotosAlbum({
+      //               filePath: res.tempFilePath,
+      //               success: function (res) {
+      //                 wx.showModal({
+      //                   title: '提示',
+      //                   showCancel: false,
+      //                   content: '保存成功',
+      //                 })
+      //               },
+      //               fail: function (res) {
+      //                 wx.showModal({
+      //                   title: '提示',
+      //                   showCancel: false,
+      //                   content: '保存失败',
+      //                 })
+
+      //               }
+      //             })
+      //           }
+      //         }
+      //       })
+      //     } else if (res.cancel) {
+      //       console.log('用户点击取消')
+      //     }
+      //   }
+      // })
+    } else if (title == 'cancle') { };
+  },
+  // 分享接口
+  onShareAppMessage: function (res) {
+    var that = this;
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      that.setData({
+        jfFlag: false
+      });
+      return {
+        success: function (res) {
+          // 转发成功
+          wx.showModal({
+            title: '提示',
+            showCancel: false,
+            content: '转发成功',
+          })
+        },
+        fail: function (res) {
+          // 转发失败
+          wx.showModal({
+            title: '提示',
+            showCancel: false,
+            content: '转发失败',
+          })
+        }
+      }
+    }
+    return {
+      success: function (res) {
+        // 转发成功
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: '转发成功',
+        })
+      },
+      fail: function (res) {
+        // 转发失败
+        wx.showModal({
+          title: '提示',
+          showCancel: false,
+          content: '转发失败',
+        })
+      }
+    }
+  },
+  // 回到尾页
+  toLast: function () {
+    this.setData({
+      duration: 30,
+    })
+    this.setData({
+      picIdx: 29
+    })
+    this.setData({
+      duration: 1000,
+    })
+  },
+  onHide: function () {
+    // 页面隐藏
+  },
+  onUnload: function () {
+    // 页面关闭
+  }
+})

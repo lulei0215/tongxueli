@@ -1,0 +1,1726 @@
+---------------------------------------------------------------
+[ 2018-01-22T09:38:50+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Index/index
+[ info ] localhost/tongxueli/public/index.php/index/Index/index [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：1,256.12kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-22T09:38:50+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,251.55kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; PHPSESSID=77m31k3j717pbpac0j0tltji64',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-22T09:38:50+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html
+[ info ] localhost/tongxueli/public/index.php/captcha.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：985.88kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; PHPSESSID=77m31k3j717pbpac0j0tltji64',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-22T09:39:00+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：1.108063s][吞吐率：0.90req/s] [内存消耗：1,897.16kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585131',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'RDLK',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.039059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T09:39:01+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：1.107063s][吞吐率：0.90req/s] [内存消耗：1,801.49kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585131',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.043003s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-22' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T09:52:32+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.090063s][吞吐率：0.92req/s] [内存消耗：1,847.90kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:42:56+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Wx/goods
+[ info ] localhost/tongxueli/public/index.php/index/Wx/goods [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,011.91kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php:338]
+---------------------------------------------------------------
+[ 2018-01-22T10:43:13+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Wx/goods
+[ info ] localhost/tongxueli/public/index.php/index/Wx/goods [运行时间：1.087062s][吞吐率：0.92req/s] [内存消耗：1,587.66kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wx->goods[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:46:26+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：1.090063s][吞吐率：0.92req/s] [内存消耗：1,932.91kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:50:21+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Wx/goods
+[ info ] localhost/tongxueli/public/index.php/index/Wx/goods [运行时间：1.062060s][吞吐率：0.94req/s] [内存消耗：1,588.87kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wx->goods[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:50:22+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Wx/goods
+[ info ] localhost/tongxueli/public/index.php/index/Wx/goods [运行时间：1.051060s][吞吐率：0.95req/s] [内存消耗：1,588.85kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=77m31k3j717pbpac0j0tltji64; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476,1516585131; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516585142',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wx->goods[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:59:43+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.073062s][吞吐率：0.93req/s] [内存消耗：1,601.09kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'pDU6qeEEp2XkLjgHtqi9ARvUqChp8wP4WDDRI8rUt4FQzUEHanmHvM0rhGexVZtCbIzRRnSm4lkgTHbL2HN9/6ztOuaq7cBjkxnTu5axBGTWCabextLbcnbaRrfeYNQlu1QGCg8rQw05kFADt6HwmX3AIfhFAtFQ9lLLbqCxiHFvFFNU07n0wtUby37KmQbwRoYxw1bK1kZJG1DoI7Vbj54zrcgjAdTWuvVAWd17wJ3hGQVJwxtkT2aFTasAUZuOlkVaggIeqLqbSWKFQZYLEvsK1MeaDL5Wi47liu+tXcDnEO4ly03TEpO3s+TN9pez9CcNJ2Pp6tjmVGGWNB/H1zEzAdgiMPAg71/xf48PP7gcHf8uyvn+VGHXvHeWsz9vl2pDB2nirOm54vWzsxreQ9xZAo4JKJCY62+Y2dzOljAHsqSezoD4aAtxsiBNAbiDkKeb0bgZoMIdBzjH4BleAlVj4vHYowXQBp9AHngwjFc=',
+    'iv' => 'ISNxD+57J49dA8SuZgh+dw==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T10:59:44+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.144066s][吞吐率：0.87req/s] [内存消耗：1,627.16kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:06:39+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.125065s][吞吐率：0.89req/s] [内存消耗：1,627.84kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:06:40+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.052060s][吞吐率：0.95req/s] [内存消耗：1,601.84kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'xIrd+BDRSn1uQbJwOLx71gHJMHsbLeUyx9xSBaZYgppw26fJCNPI4+jBmXztUK69hdgemyFarHb4/6qyVGHqhAQjxnVfochwxvnhCf9YRGvAxCeRv0b3gMsWGkPBOyL5rpfxuaIacwT5lAbMjoC9LCzauIlPHf/s7xMuItj5Ex3BfosVe5+8eZMLSpvruHgC6Ca4q5z0B3CVau5MSWp00ln1CNT5GjGa9nSU24bQCutg1OBK4d0No15S8DI78cvY9jJxFh75LMDM1YTUBDOgBrkMXdX3dh8RrDpACYieIrR2chA2gvcQ2r3EJNWrdB1Jxip3BQ/TMcgg4Jx7thMao/IWB1+7+jwCyxFh1cr34vpScpNLkZRvgPCPqSgS96UAQYZlKMTPDTuk2YtfBFmu/qXno62uxXBUCu644KVjj25iFX2Iwy5Q5EETBoxMfJvRXWQDsQZZWOMb1eJBtz0dUxFfQaLYJeZbZQhqqRbWHUs=',
+    'iv' => '7a0dfZZzXAOa4DJW4sQnKQ==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:07:25+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/my
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/my [运行时间：1.052060s][吞吐率：0.95req/s] [内存消耗：1,595.43kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'my',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->my[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:07:33+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.089062s][吞吐率：0.92req/s] [内存消耗：1,627.89kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.993057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:07:34+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.054060s][吞吐率：0.95req/s] [内存消耗：1,601.97kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'iAdjd/3uZ1KxXDYWLN0JBooxhzrfdQJtVY8nWmAgPxFhUnjF0qP8JhNrmugjmXMWAamzZ5XKUpepvuB7e9c/mbZWV9UYfLVacbc+72UV9fKc2kgEwPht0opq3IsL2PT4L9nmbQtN3cqC5e1vmDRGtTAGIBu/UIZKPwtlv8v39RLIYs9aPUWX/0Apv2LAp82mYf4+ENUJ24WtbqkIM/bNiw3P6rbHUIdyXFtrO2xEM8AYuPC+x4nIRIIN4h858Ap2etTYbscUNUgNV++aoOhlK7yfRXOnz/OSaS+YpAnFHh+csky9rsw8DlfOB5d8kyQOCiQ72apHQSbLReXUcMWW6aQTMiXxpca5q8u2Vrs3zL4tZG06o/5mlB7AjuyJJeT6xF12FsCvFwK9vfeBaxSY9ggPiH4U9hOhpCGkRS3LZJ+vM6dOCW+td0JWo3Rq+Ap2yhuN4eqDXKeWRqNXNlj5qG+CV41fGYoq3lb+ZNMlxUI=',
+    'iv' => 'a5TIzJ020sNRc55TvGkefw==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:07:45+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/my
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/my [运行时间：1.053061s][吞吐率：0.95req/s] [内存消耗：1,595.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'my',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->my[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:07:47+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/mypoint
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/mypoint [运行时间：1.057061s][吞吐率：0.95req/s] [内存消耗：1,602.17kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'mypoint',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->mypoint[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `point` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `point` WHERE  `user_id` = 3 ORDER BY create_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:08:45+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.100063s][吞吐率：0.91req/s] [内存消耗：1,627.89kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:08:48+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/sign
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/sign [运行时间：1.075062s][吞吐率：0.93req/s] [内存消耗：1,601.07kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->sign[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] INSERT INTO `sign` (`user_id` , `datetime` , `create_time`) VALUES (3 , '2018-01-22' , '2018-01-22 11:08:48') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `point` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] INSERT INTO `point` (`user_id` , `datetime` , `point` , `title` , `create_time`) VALUES (3 , '2018-01-22' , 1 , '签到积分' , '2018-01-22 11:08:48') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:14+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.067061s][吞吐率：0.94req/s] [内存消耗：1,607.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => '3Jw5aCDEXYOsHacX36leHl6ysQLBxtO2QN3NR+c2Gf5Ma3AMJ+FVMQTy946PKfk46umcsi1eusy1OorqslXUZUuTuiYMQRzbzE03yMj9hrlP1CTRfF20eqkK651+lqK7UJFsanN6Dccb+oma0ONcUhokM/RO/YzeeT0ZrdpLyC627wIQb8MgoWgXhzoURysWh5VWrhtoRxIhg80AmbKQzR3pdX1fAGML3L3OzfkPNTL/p2gafHJsR+QjwKToDagoNiM1ZizKqXmeMgW2KAr0cBy3LEGa3NTC1SrxAjUX3SPesqKjbmcDl1hevLRMZ9xQjAjpkCqzRNS1A1e6YmRXFYJbozU9RuTmNrGcEePblqwseb0SCop6ItfxtKjYxjXiiOnzoyg/769pfu6ycGSztU6xgxqVRKp8rjhd+yKBC/bNLSAWvLOAyIdlhIMacBEE7A+bTSbKSWYAX0GVxf8W7GLWdDe0JvhNW09lSxEudwA=',
+    'iv' => 'AlrGK8yMTE1mBhzYb70Q2g==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:16+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.128064s][吞吐率：0.89req/s] [内存消耗：1,633.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:22+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.104063s][吞吐率：0.91req/s] [内存消耗：1,633.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:23+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.072062s][吞吐率：0.93req/s] [内存消耗：1,607.05kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'i3vnOrw+uwWhlwkrfdZCYb4T1l9CUXgove2L36mAEZAVV7XLHyw+Ippf1TIreUOVjNFpCyDSvi7Uu0+hRhhtxaTFWiPdC5pSGyrLUJbO0F5HHzohmHDyFMREOL8E2wCdbUJ/ZwSsgxnAT/DbKtrB1lU1sruVErRXz+qDMmMuA0anllGLvgvAQiku6AzAy58MqSCW+ljaNQKhKW67wMQ09tbBTON+tyLLJPVFJF0Y5JgWRO/OOPwQcY7xX0SX3pXyJ7n59o/Inp8W1Ygli1d+1QgPmbhOTEroD2lGEMCEpplA7Vu4QW3w9914ZUAAEci++LCXTNbOsIlhzSlAEQwx6d575QSl0YxdcGolm9k2OaT5v5iSZojfvVBGgaUFhHnrIJxWBvghCjLlXvD16BOXuSTXZfGyS8saUts8wVy4qv8a3Mk7nxZL+12Om9vGOa0Duy4CSPdlSDlJRXGAmtEOoK+z4p3E/CoQtLg9EdeWhoE=',
+    'iv' => 'njO+RnQ6cnsGz+Rj2+59CA==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:33+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.112064s][吞吐率：0.90req/s] [内存消耗：1,633.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:34+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.041059s][吞吐率：0.96req/s] [内存消耗：1,607.05kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'VD2/mUBu6uE+c6/iGws/XpONIofVZNki5cz+T/cufjqdGgqPw1g5ytfWp349i15FcIbifmaxQQjcWgoLmokrB6MmalbQTqLT/mud/L7pZnREk8P7jYIeT9CGJFtpcPqiUax1IxNRpV9nyzUmd4lXstzj2Cp7zewxunJvthWCxPHcQVfSZ1eUfDT1GYKMxI5/HypOPeQalsFguK4Ogd9IcW1dTbt3w0+4It76Oq2jZ0H7owIYB0b6MRuNgaeA2xGU/4GOmdv0HL5jrf1GFzHyBKCs+RoDxz3oHQLfNjypSusLJeE2UcwtkGMZddnpaKeQg21vnRSv3ZEYGY2wJaZiH1I4/I6wHnsOcuWFq+jmalnZBmZ3WJQn6T4Ksjvunl+GzWapcufGyrojFFvg/ALh9S21VJ+gbahs/OUcqkyKCIjgZbgK/Wyx+NaK5opt4hwlTtgd0MWak7D7MUsK2HK1A4ulPyQaZRdC3wF/KSWn6k8=',
+    'iv' => 'XAy0755UB/yc5ksyKTJg/Q==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.998058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:33:45+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/my
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/my [运行时间：1.062061s][吞吐率：0.94req/s] [内存消耗：1,600.76kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'my',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->my[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:34:09+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/mypoint
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/mypoint [运行时间：1.058060s][吞吐率：0.95req/s] [内存消耗：1,607.66kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'mypoint',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->mypoint[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `point` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `point` WHERE  `user_id` = 3 ORDER BY create_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:38:59+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.055060s][吞吐率：0.95req/s] [内存消耗：1,607.05kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'RrlcbKTD5Gw+eFrSErjowPMtW6q2cu7oP0MARBG+J+b11MXJKAUl7QF31Jwgud+pLX0ucjTUG6ggjIJyIaQWL5akVVdWGi8Zy/reFpQ0CNyc6r/V0BEacIbTtjW79P+1m9apC9ZbhNN9jxT5teuTqW3RkBIjpOzDSXrt5kmTD3+SLNu01K7x0OHQAhV9cTbbc7CBSS4AHYkgJMS2cFUzu93QKkMwQ4/DIbK58Sp5vm7wp5PV/VJlHJxBhZIMCQC6mq4EB4qTKX5LtfvvbAToEZ90l1ZxmM2e7G1vl78vrpS/owfUF5gNKsjJmT6efrNW1kDiYOt4qhwr49cjINHHBsl7isJDT56o2mVVL20u/Q7t6XWSGP+pD1QHbNdgM2VhAXzVWKHHEL9MlF8JqwgzljTm8S2183BPVY9l+HQMPad3OE3L9NElVOnvGXA71+eZ+IjnH4pYx8QIfpmpQs/8Zhc50Qcn/YVyAmJhrZSrtSo=',
+    'iv' => 'ZqylcKWeEk9/lHI94E2/LQ==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:39:01+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.103063s][吞吐率：0.91req/s] [内存消耗：1,633.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:39:04+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/xindex
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/xindex [运行时间：1.098063s][吞吐率：0.91req/s] [内存消耗：1,633.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'xindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->xindex[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `name` <= '2018-01-22' ORDER BY name desc LIMIT 30 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `collect` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 75  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 76  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 77  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 78  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 79  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 80  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 81  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 82  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 83  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 84  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 85  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 86  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 87  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 88  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 89  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 90  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 91  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 92  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 93  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 94  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 95  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 96  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 97  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 98  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 99  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 100  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 101  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 102  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 103  AND `user_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `collect` WHERE  `img_id` = 104  AND `user_id` = 3 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `user_id` = 3  AND `datetime` = '2018-01-22' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:39:06+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/getuser
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/getuser [运行时间：1.062061s][吞吐率：0.94req/s] [内存消耗：1,607.05kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'getuser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '1282',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'userinfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"李严习","gender":1,"language":"zh_CN","city":"Luoyang","province":"Henan","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '李严习',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Luoyang',
+      'province' => 'Henan',
+      'country' => 'China',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/sRvMNYEuh1aeliaXrROzAAGpwBt7j6EcUw9gwGH960rTkvdlWPLYZibPcoUJtpO8eMZC4FeYo4UDgX8WHszjuWzQ/0',
+    ),
+    'signature' => '00868fd80c42a8176d5ec82693dd5ebe9d571626',
+    'encryptedData' => 'uY6O97ZjGQpeUz5i7rW0jbu3XuUpv9eHySGymHXqvsAL41S0phKoZbLWDL8f33xWPZ+9kLKx69auMsASI7oLiCFHPd8GigUNjYTmJ6kMjx5I1FueA33Hgq+EF1jkHL4+vpPLHEXtvZCh2j9FE1xpZpgm+lWmHcTSm8NezRYXMbvYa1FIR7jhHNxqwCEIokJlBOciqjkwPVtQmnnCm9enm5RqOX1DWXAqQI5vx3rxzikrq+KlEb/XCSjo34BmMHHofJER/qsYT+A3j74eoA3ufe75uAkVXIeZ1pWua3XH7Eh01IqoVmPNkbd1Lw2sXgGjzUUODcNarWNZHkmVaTG0UJEUIAwD5MbJD/OZXXs2vMSp6WfnLwUZaPL5bOCJmjSHUfDRpt+hrNKlJ3KVmuNWC4gb1nsRbxu4JVpjg4F9x2D4SNfj8c+uWiOHdazZdlzpVaVtvAkIAFfK+u1yf4Ue2WPRlWrSbo3MvMVgroqLMXQ=',
+    'iv' => 'cu+qkTWioq5FU10qJEMtfg==',
+  ),
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->getuser[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:39:08+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/my
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/my [运行时间：1.051060s][吞吐率：0.95req/s] [内存消耗：1,600.76kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'my',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->my[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oSloV0TcuA3HmmglufI3DHoA3pCc' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-22T11:39:10+08:00 ] 192.168.1.74 POST /tongxueli/public/index.php/index/Wx/goods
+[ info ] 192.168.1.50/tongxueli/public/index.php/index/Wx/goods [运行时间：1.042060s][吞吐率：0.96req/s] [内存消耗：1,595.46kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wx',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx82fd8a5ab014c63c/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'origin' => 'http://127.0.0.1:9973',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '102',
+  'connection' => 'close',
+  'host' => '192.168.1.50',
+)
+[ info ] [ PARAM ] array (
+  'session' => 'Drwrwg6qP6q33ujcYxbFqrT1aCf/Ca8keBp5PnSs2UE=McsZ8+DzVVnUfWsT1lBmWW8VZ6sPVMje+Rp/osu61AE=',
+)
+[ info ] [ RUN ] app\index\controller\Wx->goods[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001000s ]

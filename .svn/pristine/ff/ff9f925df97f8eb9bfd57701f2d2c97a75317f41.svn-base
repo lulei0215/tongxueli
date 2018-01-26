@@ -1,0 +1,15 @@
+<!--page/mycollect/mycollect.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="collect_list fl w100">
+      <view wx-if='{{info && info.length==0}}' class='zwsj'>暂无数据</view>
+      <block wx:for="{{info}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+        <view class="collect_li">
+          <image bindtap='del' data-id='{{i.img_id}}' src="{{picPath}}/icon_delete.png" class="icon_delete"></image>
+          <image bindtap='bigpic' data-idx='{{idx}}' src="{{i.url}}" mode="widthFix" class="img_cand"></image>
+        </view>
+      </block>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,2051 @@
+---------------------------------------------------------------
+[ 2018-01-18T13:14:16+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/Index/index
+[ info ] localhost/tongxueli/public/index.php/index/Index/index [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,253.20kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:16+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,368.56kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:17+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html
+[ info ] localhost/tongxueli/public/index.php/captcha.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：985.97kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:26+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：1,813.22kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'MXXT5',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T13:14:35+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,248.35kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:46+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,409.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'captcha' => 'MXXT5',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\oky.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:47+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,249.37kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:14:47+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html
+[ info ] localhost/tongxueli/public/index.php/captcha.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：986.63kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:16:54+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,249.82kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:16:54+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html
+[ info ] localhost/tongxueli/public/index.php/captcha.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：986.66kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252476',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:03+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html?1516252623631
+[ info ] localhost/tongxueli/public/index.php/captcha.html?1516252623631 [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：986.63kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252615',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '1516252623631' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:39+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,249.82kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252615',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:39+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html
+[ info ] localhost/tongxueli/public/index.php/captcha.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：986.33kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252615',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:41+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html?1516252661854
+[ info ] localhost/tongxueli/public/index.php/captcha.html?1516252661854 [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：986.30kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252660',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '1516252661854' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:42+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html?1516252662902
+[ info ] localhost/tongxueli/public/index.php/captcha.html?1516252662902 [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：986.30kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252660',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '1516252662902' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:43+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/captcha.html?1516252663606
+[ info ] localhost/tongxueli/public/index.php/captcha.html?1516252663606 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：986.34kb] [文件加载：32]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252660',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '1516252663606' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\tongxueli\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:17:56+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：2,018.46kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252660',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:17:56+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,199.30kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252660',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:18:05+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：1,964.24kb] [文件加载：49]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252676',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:18:09+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：0.180010s][吞吐率：5.56req/s] [内存消耗：2,095.05kb] [文件加载：49]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252676',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.059003s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.025002s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:19:50+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,374.98kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252676',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:19:50+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,199.55kb] [文件加载：39]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252676',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:19:52+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：1,845.02kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252791',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.014001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:22:19+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,929.77kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252791',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:23:16+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,375.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252791',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:23:16+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,315.31kb] [文件加载：41]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252791',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:25:16+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,251.82kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252997',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:25:16+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：1,915.84kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516252997',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-18' [ RunTime:0.025002s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:25:59+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,251.68kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253117',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:25:59+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：1,915.73kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253117',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022001s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-18' [ RunTime:0.013001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:27:50+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,377.55kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253160',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:27:50+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：1,799.76kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253160',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054003s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-18' [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:28:00+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,846.01kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.012001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:28:06+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：1,846.01kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023001s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.033002s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:28:08+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：1,930.84kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.067004s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.018001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:28:11+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,846.01kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024002s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.015001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:28:13+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,846.01kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=101.200.135.142;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.015001s ]
+---------------------------------------------------------------
+[ 2018-01-18T13:56:36+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,767.84kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T13:56:40+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：0.055004s][吞吐率：18.18req/s] [内存消耗：1,768.06kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T13:56:48+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,767.96kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T13:56:53+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,251.70kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T13:56:53+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,768.45kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T13:56:55+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,767.96kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ��һ���޷����ӵ����糢����һ���׽��ֲ�����
+[C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-01-18T14:00:17+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,251.85kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T14:00:18+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：1.118064s][吞吐率：0.89req/s] [内存消耗：1,799.79kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516253271',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-18' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:00:20+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.097063s][吞吐率：0.91req/s] [内存消耗：1,845.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:00:21+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.056060s][吞吐率：0.95req/s] [内存消耗：1,845.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:00:23+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.079062s][吞吐率：0.93req/s] [内存消耗：1,845.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:00:24+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：1.079062s][吞吐率：0.93req/s] [内存消耗：1,930.91kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:01:59+08:00 ] 0.0.0.0 POST /tongxueli/public/index.php/index/index/login.html
+[ info ] localhost/tongxueli/public/index.php/index/index/login.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,251.67kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'captcha' => 'FD4A',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-18T14:02:00+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/welcome.html
+[ info ] localhost/tongxueli/public/index.php/index/index/welcome.html [运行时间：1.093062s][吞吐率：0.91req/s] [内存消耗：1,799.65kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255219',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\welcome.html [ array (
+  0 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `sign` WHERE  `datetime` = '2018-01-18' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:02:02+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：1.102063s][吞吐率：0.91req/s] [内存消耗：2,096.13kb] [文件加载：49]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255320',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-18T14:02:27+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/imglist.html
+[ info ] localhost/tongxueli/public/index.php/index/index/imglist.html [运行时间：1.067061s][吞吐率：0.94req/s] [内存消耗：2,097.98kb] [文件加载：49]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'imglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255320',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->imglist[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\picture-list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` ORDER BY name desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-18T20:40:28+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.113064s][吞吐率：0.90req/s] [内存消耗：1,847.90kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255320',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.039059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-18T20:40:31+08:00 ] 0.0.0.0 GET /tongxueli/public/index.php/index/index/admins.html
+[ info ] localhost/tongxueli/public/index.php/index/index/admins.html [运行时间：1.083062s][吞吐率：0.92req/s] [内存消耗：1,847.93kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\tongxueli\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=151444428300698446010367; _umdata=535523100CBE37C3688DD5CCCC13E32199E29D5C99E112BC4B4753FF5ED5090B31A5FFDE890EA6A6CD43AD3E795C914CB40CE0A7FAE05E9D766FD9587FE4FB39; isg=AiAgn_AVbifA19Ij3937--Kw5C4ygQWLLv3EVZowzjvOlcG_Qzrjg4utWSL_; PHPSESSID=q27ebauedmchet5h8pcl5sfcr4; Hm_lvt_080836300300be57b7f34f4b3e97d911=1516252476; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516255320',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://localhost/tongxueli/public/index.php/index/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->admins[ C:\phpStudy\PHPTutorial\WWW\tongxueli\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\tongxueli\public/../application/index\view\index\admins.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032059s ] mysql:host=localhost;port=3306;dbname=tongxueli;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001000s ]

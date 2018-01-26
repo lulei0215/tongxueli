@@ -1,0 +1,43 @@
+<!--page/myorder/myorder.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <view class="collect_list fl w100">
+        <!--无内容显示-->
+        <view class="weenone" wx-if='{{info && info.length==0}}'>
+          <image src="{{picPath}}/icon_none.png" class="icon_none"></image>
+          <view class="ft24 ftgrey">您还没有兑换过礼品！</view>
+        </view>
+        <!--有内容显示-->
+        <view class="collect_li fl w100 bgwhite">
+          <block wx:for="{{info}}" wx:for-item="i" wx:key="i.id" wx:for-index="idx">
+            <view class="order_li">
+              <view class="ftred fr">{{i.point}}积分</view>
+              <image src="{{i.img}}" mode="aspectFit" class="img_order fl"></image>
+              <view class="ft24 ftblod">{{i.name +'x'+ i.num}}</view>
+              <view class="ft20 ftgrey">{{i.create_time}}</view>
+            </view>
+          </block>
+        </view>
+
+      </view>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <!--未选中：icon_index；选中：icon_indhover-->
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/candindex/candindex">
+        <icon class="icon_cander"></icon>
+        <!--未选中：icon_cander；选中：icon_cadhover-->
+        <text class="">写日历</text>
+      </navigator>
+      <navigator open-type='navigateBack' url="/page/percent/percent" class="bdnav_hover">
+        <icon class="icon_perhover"></icon>
+        <!--未选中：icon_person；选中：icon_perhover-->
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>

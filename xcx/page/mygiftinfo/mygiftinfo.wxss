@@ -1,0 +1,57 @@
+/* page/mygiftinfo/mygiftinfo.wxss */
+.collect_li{
+    border-radius: 10rpx;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+.order_li .ftred {
+    line-height:40rpx;
+}
+.icon_right1 {
+    margin-top:14rpx;
+}
+.myaddress{
+    height: 130rpx;
+}
+.none_cont{
+    line-height: 60rpx;
+}
+.myaddress .ft20 text{
+    color: #FF0602;
+    width: 65rpx;
+    height: 20rpx;
+    border: #FF0602 2rpx solid;
+    font-size: 18rpx;
+    border-radius: 5rpx;
+    display: inline-block;
+    text-align: center;
+    line-height: 18rpx;
+    margin-right: 20rpx;
+}
+.myaddress .ft24 text{
+    display: inline-block;
+    margin-left: 20rpx;
+}
+.drop_bg{
+  width: 100%;
+  background: url(http://192.168.1.58/cwj_server/image/bg03.png) no-repeat;
+  background-size:cover;
+  height: 239rpx;
+}
+.img_circle{
+  width: 231rpx;
+  height: 231rpx;
+  position: relative;
+  top: 115rpx;
+}
+.button_w50{
+    margin-bottom: 40rpx;
+}
+.button_w50 button{
+    width: 100%;
+    margin-top: 20rpx;
+    margin-bottom: 0rpx;
+}
+.drop_cont{
+    margin-bottom: 20rpx;
+}

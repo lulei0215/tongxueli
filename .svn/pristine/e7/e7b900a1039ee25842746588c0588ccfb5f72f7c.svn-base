@@ -1,0 +1,67 @@
+<!--page/editecand/editecand.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="marb100 fl w100">
+      <form bindsubmit='formSubmit'>
+        <view class="index_top">
+          <image src="{{picPath}}/img_bg.png" class="img_editecard"></image>
+          <view class="date_eng">
+            <text class="ft82">{{info.mon}}</text>
+            <text class="ft33">{{info.eg_mon}}</text>
+          </view>
+          <view class="date_day">
+            <text class="ft126">{{info.day}}</text>
+          </view>
+          <view class="date_year">
+            <text class="ft32 ftblue">{{info.year}}</text>
+            <text class="ft32 ftwhite">{{info.tian}}</text>
+          </view>
+          <textarea name='cont' class="textarea_front" maxlength="50" placeholder="文字编辑区域 50字以内" value="" />
+          <view class="editecard_info">
+            <image src="{{info.touxiang}}" class="img_circle"></image>
+            {{info.nickname}}
+          </view>
+          <button form-type='submit' type="button" class="button_blue">生成我的同学历</button>
+        </view>
+      </form>
+    </view>
+    <view class="position_fixed fl w100">
+      <navigator open-type='reLaunch' url="/page/index/index" class="">
+        <icon class="icon_index"></icon>
+        <text>同学历</text>
+      </navigator>
+      <navigator open-type='navigateBack' url="/page/candindex/candindex" class="bdnav_hover">
+        <icon class="icon_cadhover"></icon>
+        <text class="">写日历</text>
+      </navigator>
+      <navigator open-type='reLaunch' url="/page/percent/percent">
+        <icon class="icon_person"></icon>
+        <text>个人中心</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<!--生成同学历弹出层-->
+<view class="drop_overlay" wx-if='{{dropFalg}}'></view>
+<view class="drop_content" wx-if='{{dropFalg}}'>
+  <image bindtap='cancle' src="{{picPath}}/icon_close.png" class="icon_close"></image>
+  <view class="sign_drop">
+    <view class="drop_bg">
+      <image src="{{picPath}}/icon_cader1.png" class="icon_score3"></image>
+    </view>
+    <view class="drop_cont">
+      <view class="ft46">日历编辑成功</view>
+      <view class="ft24">您可以将日历投稿给我们，一经采纳将</view>
+      <view class="ft24">会更新在同学历中，并奖励您30积分。</view>
+    </view>
+  </view>
+  <view class="button_w50">
+    <button bindtap='save' class="button_blue">保存到相册</button>
+    <button bindtap='sendpic' class="button_red">一键投稿</button>
+  </view>
+</view>
+<!--canvas画布  -->
+<view class="canvas-box">
+  <canvas style="width: 650px;height: 650px;" canvas-id="mycanvas" />
+</view>

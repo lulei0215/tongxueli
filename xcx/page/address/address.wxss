@@ -1,0 +1,15 @@
+/* page/address/address.wxss */
+.collect_li{
+    border-radius: 10rpx;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+.collect_li .address_li{
+    border-bottom: #f6f6f6 2rpx solid;
+    color: #999;
+    font-size: 24rpx;
+    padding: 30rpx 20rpx;
+}
+.collect_li .address_li:last-child{
+    border-bottom: none 0;
+}
